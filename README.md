@@ -1,4 +1,3 @@
-```markdown
 # 🔐 Secure Chat (No Login, End-to-End Encrypted)
 
 A simple, lightweight, and secure web-based chat app that enables **end-to-end encrypted communication** between users — with **no login required**.
@@ -141,20 +140,4 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-Created by [Faheem](https://github.com/your-username) – feel free to reach out!
-
----
-
-## ⭐️ Star This Project
-
-If you found this helpful, give it a ⭐️ to support the project!
-
-```
-
----
-
-Would you like this file:
-- As a downloadable `.md`?
-- Added to your project folder?
-- With custom screenshots or QR setup instructions?
-```
+Created by [Faheem](https://github.com/faheem-k) – feel free to reach out!
