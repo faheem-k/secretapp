@@ -1,4 +1,4 @@
-
+```markdown
 # 🔐 Secure Chat (No Login, End-to-End Encrypted)
 
 A simple, lightweight, and secure web-based chat app that enables **end-to-end encrypted communication** between users — with **no login required**.
@@ -16,11 +16,6 @@ Messages are encrypted in the browser using **ECDH + AES-GCM** and relayed via W
 - 🔒 Server never sees unencrypted messages
 - 🌐 Works on LAN or can be hosted online (e.g., Railway + Cloudflare Pages)
 
----
-
-## 🖼️ Demo
-
-![screenshot](https://your-screenshot-link-here.com) <!-- Replace with actual screenshot if needed -->
 
 ---
 
