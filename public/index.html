@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Chat</title>
+  <script defer src="/socket.io/socket.io.js"></script>
+  <script defer src="main.js"></script>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 2em; }
+    #chat { border: 1px solid #ccc; padding: 1em; height: 300px; overflow-y: auto; }
+    input, button { margin-top: 1em; width: 100%; padding: 0.5em; }
+  </style>
+</head>
+<body>
+  <h1>Secure Chat</h1>
+  <div id="chat"></div>
+  <input type="text" id="message" placeholder="Type a message" />
+  <button id="send">Send</button>
+</body>
+</html>
