@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuantumChat - Secure Communication</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+</head>
+<body>
+  <div class="bg-animation"></div>
+  
+  <div class="container">
+    <div class="header">
+      <h1>QuantumChat</h1>
+      <p class="subtitle">End-to-end encrypted secure communication</p>
+    </div>
+
+    <div class="status-indicator">
+      <div class="status-dot" id="statusDot"></div>
+      <span class="status-text" id="statusText">Initializing secure connection...</span>
+    </div>
+
+    <div class="chat-container">
+      <div class="chat-header">
+        <div class="room-info">
+          <span>Room:</span>
+          <span class="room-id" id="roomId">Generating...</span>
+        </div>
+        <div class="encryption-badge">
+          🔒 AES-256-GCM + ECDH
+        </div>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="message peer">
+          <div class="message-sender">System</div>
+          <div class="message-bubble">
+            Welcome to QuantumChat! Share the room URL with someone to start a secure conversation.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <input type="text" class="message-input" id="messageInput" placeholder="Type your encrypted message..." />
+      <button class="send-button" id="sendButton" disabled>
+        ➤
+      </button>
+    </div>
+
+    <div class="encryption-info">
+      <strong>🛡️ Your Privacy Guaranteed</strong><br>
+      All messages are encrypted end-to-end using military-grade AES-256-GCM encryption with ECDH key exchange.
+      <br>The server cannot read your messages.
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
